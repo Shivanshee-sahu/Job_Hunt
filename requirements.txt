@@ -1,0 +1,6 @@
+streamlit
+pandas
+pymupdf
+google-generativeai
+apify-client
+python-dotenv
