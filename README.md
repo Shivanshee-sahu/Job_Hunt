@@ -67,13 +67,13 @@ GEMINI_API_KEY=your_google_gemini_key
 LI_AT_COOKIE=your_linkedin_li_at_cookie
 JSESSIONID_VALUE=your_linkedin_jsessionid
 USER_AGENT=your_browser_user_agent
-
-###🖥️ Usage
+```
+##🖥️ Usage
 
 Launch the Streamlit application:
 streamlit run main.py
 
-###🔄 Workflow
+##🔄 Workflow
 
 Upload Resume
 Upload your PDF resume. The system extracts and structures technical skills, roles, and preferences.
@@ -90,7 +90,7 @@ Your matched skills
 
 Overall match score
 
-###📊 Logic & Architecture
+##📊 Logic & Architecture
 
 The system follows a linear, state-driven pipeline:
 
