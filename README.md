@@ -45,14 +45,14 @@ Custom scoring algorithm based on relevance:
 
 ---
 
-##🖥️ Usage
+## 🖥️ Usage
 
 Launch the Streamlit application:
 streamlit run main.py
 
 ---
 
-##🔄 Workflow
+## 🔄 Workflow
 
 Upload Resume
 Upload your PDF resume. The system extracts and structures technical skills, roles, and preferences.
@@ -71,7 +71,7 @@ Overall match score
 
 ---
 
-##📊 Logic & Architecture
+## 📊Logic & Architecture
 
 The system follows a linear, state-driven pipeline:
 
