@@ -45,31 +45,6 @@ Custom scoring algorithm based on relevance:
 
 ---
 
-## ⚙️ Setup & Installation
-
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/your-username/job-scout-ai.git
-cd job-scout-ai
-## ⚙️ Setup & Installation
-
-### 2️⃣ Install Dependencies
-Install all required Python packages using:
-
-```bash
-pip install -r requirements.txt
-
-###3️⃣Configure Environment Variables
-Create a .env file in the root directory of the project and add the following keys:
-
-APIFY_TOKEN=your_apify_token
-GEMINI_API_KEY=your_google_gemini_key
-LI_AT_COOKIE=your_linkedin_li_at_cookie
-JSESSIONID_VALUE=your_linkedin_jsessionid
-USER_AGENT=your_browser_user_agent
-```
----
-
 ##🖥️ Usage
 
 Launch the Streamlit application:
@@ -108,3 +83,30 @@ The extracted role and location are injected into LinkedIn search queries to fet
 
 🔹 Ranking
 Each job is scored using a weighted matching algorithm, and results are ranked based on a computed match_score in a Pandas DataFrame.
+
+
+## ⚙️ Setup & Installation
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/job-scout-ai.git
+cd job-scout-ai
+## ⚙️ Setup & Installation
+
+### 2️⃣ Install Dependencies
+Install all required Python packages using:
+
+```bash
+pip install -r requirements.txt
+
+###3️⃣Configure Environment Variables
+Create a .env file in the root directory of the project and add the following keys:
+
+APIFY_TOKEN=your_apify_token
+GEMINI_API_KEY=your_google_gemini_key
+LI_AT_COOKIE=your_linkedin_li_at_cookie
+JSESSIONID_VALUE=your_linkedin_jsessionid
+USER_AGENT=your_browser_user_agent
+```
+---
+
